@@ -40,9 +40,9 @@ sudo python setup.py install
 cd ..
 
 ## Configuring PHP-Curl
-sudo sed -ie 's/;extension=php_curl.dll/extension=php_curl.dll/g' $phpinipath
+##sudo sed -ie 's/;extension=php_curl.dll/extension=php_curl.dll/g' $phpinipath
 
-sudo service apache2 restart
+##sudo service apache2 restart
 
 echo ''
 echo ''
